@@ -24,4 +24,4 @@ Dibangun menggunakan **Flutter** sebagai frontend dan **Go Fiber + MySQL** sebag
 - **Frontend:** Flutter (Dart)
 - **Backend API:** Go Fiber
 - **Database:** MySQL
-- **Storage:** Local file storage untuk upload foto/berkas (`/storage/upload/photo`)
+- **Storage:** Local file storage GoFiber untuk upload foto/berkas (`/storage/upload/photo`)
