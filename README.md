@@ -25,3 +25,7 @@ Dibangun menggunakan **Flutter** sebagai frontend dan **Go Fiber + MySQL** sebag
 - **Backend API:** Go Fiber
 - **Database:** MySQL
 - **Storage:** Local file storage GoFiber untuk upload foto/berkas (`/storage/upload/photo`)
+  
+  ---
+
+- link repo api : https://github.com/azkaainurridho514/bimskrip-api
