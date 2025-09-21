@@ -1,16 +1,27 @@
-# bimskrip
+# 📚 Aplikasi Bimbingan Skripsi
 
-A new Flutter project.
+Aplikasi sederhana untuk penunjang bimbingan skripsi.  
+Dibangun menggunakan **Flutter** sebagai frontend dan **Go Fiber + MySQL** sebagai backend.  
 
-## Getting Started
+## ✨ Fitur Utama
+- 👩‍🎓 **Mahasiswa**
+  - Registrasi & login
+  - Memilih dosen pembimbing
+  - CRUD progress penelitian
+  - Mengunggah hasil penelitian
+  - Melihat status bimbingan  
 
-This project is a starting point for a Flutter application.
+- 👨‍🏫 **Dosen Pembimbing**
+  - Registrasi & login
+  - Melihat daftar mahasiswa bimbingan
+  - Mengubah status pada progress mahasiswa
+  - Membuat dan mengatur jadwal bimbingan  
 
-A few resources to get you started if this is your first Flutter project:
+- 📅 **Fitur Umum**
+  - Notifikasi & riwayat bimbingan
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+- **Frontend:** Flutter (Dart)
+- **Backend API:** Go Fiber
+- **Database:** MySQL
+- **Storage:** Local file storage untuk upload foto/berkas (`/storage/upload/photo`)
